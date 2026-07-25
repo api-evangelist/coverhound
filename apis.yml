@@ -1,8 +1,14 @@
 aid: coverhound
 name: CoverHound
-description: 'CoverHound is a company surfaced as a portfolio company of bullpen-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'CoverHound is an InsurTech marketplace, now part of Brown & Brown, Inc.
+  (NYSE: BRO), that lets consumers and small businesses compare and buy insurance online
+  from A-rated carriers across all 50 states. Its platform covers personal lines —
+  auto, homeowners, and renters — alongside business insurance including general liability,
+  workers'' compensation, professional liability, commercial auto, cyber, and directors
+  & officers coverage. Founded in 2010 and headquartered in Carpinteria, California,
+  CoverHound provides digital quote comparison, agent-assisted purchasing, and an insurance
+  learning center. It operates as a consumer/SMB web marketplace and publishes no public
+  developer program, API, or technical documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/coverhound/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - bullpen-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/5fb811e2d3b0e2c2b1d7b5da/609e9448a6dda5d103c85afb_seoCityImage.png
 tags:
 - Company
 - Fintech
+- Insurance
+- InsurTech
+- Insurance Marketplace
+- Comparison Shopping
+- Small Business Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/coverhound-domain-security.yml
 - type: Website
   url: https://coverhound.com
+- type: Blog
+  url: https://www.coverhound.com/blog
+- type: Support
+  url: https://www.coverhound.com/contact
+- type: TermsOfService
+  url: https://www.coverhound.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.bbinsurance.com/privacy-statement/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
